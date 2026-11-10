@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voz do Crato · Regulação do Sistema Nervoso</title>
+    <meta name="description" content="Leitura acolhedora do roteiro de regulação do sistema nervoso e sobrecarga sensorial com voz e sotaque do Crato (Cariri cearense), narrado por homem de meia-idade usando Gemini 3.8 Flash TTS." />
+    <meta property="og:title" content="Voz do Crato · Regulação do Sistema Nervoso" />
+    <meta property="og:description" content="Leitura acolhedora do roteiro de regulação do sistema nervoso e sobrecarga sensorial com voz e sotaque do Crato (Cariri cearense), narrado por homem de meia-idade usando Gemini 3.8 Flash TTS." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Per AI Studio constraints: HMR is disabled, ignore WebSocket connection errors
+      window.addEventListener('error', function(e) {
+        if (e.message && (e.message.includes('WebSocket') || e.message.includes('@vite/client'))) {
+          e.stopImmediatePropagation();
+        }
+      }, true);
+      window.addEventListener('unhandledrejection', function(e) {
+        var str = String((e && (e.reason && e.reason.message || e.reason)) || '');
+        if (str.includes('WebSocket') || str.includes('@vite/client')) {
+          e.stopImmediatePropagation();
+          e.preventDefault();
+        }
+      }, true);
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

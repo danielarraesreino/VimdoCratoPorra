@@ -1,0 +1,6 @@
+{
+  "name": "Voz do Crato · Regulação do Sistema Nervoso",
+  "description": "Leitura acolhedora do roteiro de regulação do sistema nervoso e sobrecarga sensorial com voz e sotaque do Crato (Cariri cearense), narrado por homem de meia-idade usando Gemini 3.8 Flash TTS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
